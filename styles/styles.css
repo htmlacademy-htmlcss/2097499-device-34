@@ -141,7 +141,7 @@ html {
 }
 
 .title_second{
-  font-family: 'Raleway';
+  font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 16px;
@@ -156,7 +156,7 @@ html {
 }
 
 .title {
-  font-family: 'Raleway';
+  font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 50px;
@@ -940,7 +940,7 @@ html {
 
 .categiry__item-text {
   display: block;
-  font-family: 'Raleway';
+  font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -1068,7 +1068,7 @@ html {
 }
 
 .advantages__text {
-  max-width: 479px;
+  max-width: 454px;
   margin-top: 0;
   margin-bottom: 0;
   color: var(--first-background-color);
@@ -1821,7 +1821,7 @@ html {
   border-radius: 50%;
   border: 2px solid var(--second-main-color);
   opacity: 0.6;
-  font-family: 'Raleway';
+  font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 14px;
