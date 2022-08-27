@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Девайс</title>
-    <link rel="icon" href="images/favicon.png">
+    <link rel="icon" href="favicon.ico">
     <link rel="stylesheet" href="styles/styles.css">
   </head>
   <body class="page">
@@ -114,7 +114,7 @@
     <main class="main">
       <h1 class="visually-hidden">Каталог Интернет-магазина "Device"</h1>
       <section class="breadcrumbs-section container">
-        <h2 class="title">Моноподы для селфи</h2>
+        <h2 class="breadcrumbs__title title">Моноподы для селфи</h2>
         <ul class="breadcrumbs">
           <li><a class="breadcrumbs__link link" href="index.html">Главная</a></li>
           <li><a class="breadcrumbs__link link" href="#">Каталог товаров</a></li>
@@ -129,7 +129,7 @@
               <fieldset class="filter__fieldset">
                 <legend class="fieldset__title">Стоимость</legend>
                 <div class="range__scale">
-                  <div class="range__bar" style="left: 0; width: 109px;"></div>
+                  <div class="range__bar" style="left: 0; width: 119px;"></div>
                     <div class="range__toggle-wrapper range__toggle-wrapper-min">
                       <button class="range__toggle toggle-min" type="button">
                         <span class="visually-hidden">Изменить минимальную цену.</span>
@@ -155,57 +155,45 @@
               <fieldset class="filter__fieldset fieldset_second">
                 <legend class="fieldset__title">Цвет</legend>
                 <ul class="fieldset__list">
-                  <li class="fieldset__item control">
-                    <input class="control__input visually-hidden" id="control__first" type="checkbox" name="black" checked>
-                    <span class="control__mark"></span>
-                    <label class="control__label" for="control__first">Чёрный</label>
+                  <li class="fieldset__item">
+                    <input class="control__input visually-hidden" type="checkbox" name="black" checked id="control__black">
+                    <label class="control__mark" for="control__black"></label>
+                    <label class="control__label" for="control__black">Чёрный</label>
                   </li>
                   <li class="fieldset__item">
-                    <label class="control">
-                      <input class="control__input visually-hidden" type="checkbox" name="white" checked>
-                      <span class="control__mark"></span>
-                      <span class="control__label">Белый</span>
-                    </label>
+                    <input class="control__input visually-hidden" type="checkbox" name="white" checked id="control__white">
+                    <label class="control__mark" for="control__white"></label>
+                    <label class="control__label" for="control__white" for="control__white">Белый</label>
                   </li>
                   <li class="fieldset__item">
-                    <label class="control">
-                      <input class="control__input visually-hidden" type="checkbox" name="blue">
-                      <span class="control__mark"></span>
-                      <span class="control__label">Синий</span>
-                    </label>
+                    <input class="control__input visually-hidden" type="checkbox" name="blue" id="control__blue">
+                    <label class="control__mark" for="control__blue"></label>
+                    <label class="control__label" for="control__blue">Синий</label>
                   </li>
                   <li class="fieldset__item">
-                    <label class="control">
-                      <input class="control__input visually-hidden" type="checkbox" name="red">
-                      <span class="control__mark"></span>
-                      <span class="control__label">Красный</span>
-                    </label>
+                    <input class="control__input visually-hidden" type="checkbox" name="red" id="control__red">
+                    <label class="control__mark" for="control__red"></label>
+                    <label class="control__label" for="control__red">Красный</label>
                   </li>
                   <li class="fieldset__item">
-                    <label class="control">
-                      <input class="control__input visually-hidden" type="checkbox" name="pink">
-                      <span class="control__mark"></span>
-                      <span class="control__label">Розовый</span>
-                    </label>
+                    <input class="control__input visually-hidden" type="checkbox" name="pink" id="control__pink">
+                    <label class="control__mark" for="control__pink"></label>
+                    <label class="control__label" for="control__pink">Розовый</label>
                   </li>
                 </ul>
               </fieldset>
-              <fieldset class="filter__fieldset fieldset_second">
+              <fieldset class="filter__fieldset fieldset_second fieldset_third">
                 <legend class="fieldset__title">Bluetooth</legend>
                 <ul class="fieldset__list">
                   <li class="fieldset__item">
-                    <label class="control">
-                      <input class="control__input visually-hidden" type="radio" name="bluetooth" value="true" checked>
-                      <span class="control__mark"></span>
-                      <span class="control__label">Есть</span>
-                    </label>
+                    <input class="control__input visually-hidden" type="radio" name="bluetooth" value="true" checked id="control__bluetooth_true">
+                    <label class="control__mark" for="control__bluetooth_true"></label>
+                    <label class="control__label" for="control__bluetooth_true">Есть</label>
                   </li>
                   <li class="fieldset__item">
-                    <label class="control">
-                      <input class="control__input visually-hidden" type="radio" name="bluetooth" value="false">
-                      <span class="control__mark"></span>
-                      <span class="control__label">Нет</span>
-                    </label>
+                    <input class="control__input visually-hidden" type="radio" name="bluetooth" value="false" id="control__bluetooth_false">
+                    <label class="control__mark" for="control__bluetooth_false"></label>
+                    <label class="control__label" for="control__bluetooth_false">Нет</label>
                   </li>
                 </ul>
               </fieldset>
